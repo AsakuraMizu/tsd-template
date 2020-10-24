@@ -1,0 +1,7 @@
+{
+  "space": true,
+  "rules": {
+    "object-curly-spacing": ["error", "always"],
+    "@typescript-eslint/restrict-plus-operands": "off"
+  }
+}

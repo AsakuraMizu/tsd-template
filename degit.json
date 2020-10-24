@@ -1,6 +1,10 @@
 [
-	{
-		"action": "remove",
-		"files": ["LICENSE", "README.md", "degit.json", ".gitignore", ".keepme"]
-	}
+  {
+    "action": "remove",
+    "files": [
+      "README.md",
+      "degit.json",
+      ".keepme"
+    ]
+  }
 ]

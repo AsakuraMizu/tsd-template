@@ -1,14 +1,17 @@
 {
   "name": "tsd-template",
   "version": "1.1.2",
-  "description": "A minimalist Defold TypeScript template",
-  "repository": "github:thejustinwalsh/defold-typescript",
+  "description": "water_lift's @ts-defold template",
+  "repository": "github:AsakuraMizu/tsd-template",
   "keywords": [
     "typescript",
     "lua",
     "defold"
   ],
-  "author": "Justin Walsh (https://thejustinwalsh.com/)",
+  "author": "water_lift <0xWATERx0@gmail.com>",
+  "contributors": [
+    "Justin Walsh (https://thejustinwalsh.com/)"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=12.13.0"
@@ -16,18 +19,18 @@
   "scripts": {
     "postinstall": "patch-package",
     "build": "tstl",
-    "lint": "eslint src",
+    "lint": "xo src",
     "dev": "tstl --watch"
   },
   "devDependencies": {
     "@ts-defold/tstl-export-as-global": "^0.0.2",
-    "@ts-defold/types": "^1.1.10",
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
-    "eslint": "^7.10.0",
+    "@ts-defold/types": "^1.1.11",
+    "eslint-config-xo-typescript": "^0.35.0",
     "patch-package": "^6.2.2",
-    "typescript": "^3.9.2",
-    "typescript-to-lua": "^0.35.0"
+    "postinstall-postinstall": "^2.1.0",
+    "typescript": "^3.8.3",
+    "typescript-to-lua": "^0.35.0",
+    "xo": "^0.34.1"
   },
   "dependencies": {}
 }
