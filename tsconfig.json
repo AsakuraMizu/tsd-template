@@ -23,7 +23,7 @@
   ],
   "tstl": {
     "luaTarget": "5.1",
-    "luaLibImport": "inline",
+    "luaLibImport": "require",
     "trimExtensions": true,
     "luaPlugins": [
       {
@@ -39,6 +39,9 @@
             "final"
           ]
         }
+      },
+      {
+        "name": "@ts-defold/tstl-userdata-sugar"
       }
     ]
   }

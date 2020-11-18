@@ -23,12 +23,13 @@
     "dev": "tstl --watch"
   },
   "devDependencies": {
-    "@ts-defold/tstl-export-as-global": "^0.0.2",
-    "@ts-defold/types": "^1.1.11",
+    "@ts-defold/tstl-export-as-global": "^0.0.4",
+    "@ts-defold/tstl-userdata-sugar": "^0.1.0",
+    "@ts-defold/types": "^1.1.13",
     "eslint-config-xo-typescript": "^0.35.0",
     "patch-package": "^6.2.2",
     "postinstall-postinstall": "^2.1.0",
-    "typescript": "^3.8.3",
+    "typescript": "^3.9.2",
     "typescript-to-lua": "^0.35.0",
     "xo": "^0.34.1"
   },
